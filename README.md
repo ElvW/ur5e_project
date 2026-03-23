@@ -28,7 +28,7 @@ Once inside the container, clone the simulation source code and compile the work
 1. **Launching Gazebo Simulation:**
 To initialize the physics world and spawn the UR5e robot:
     ```bash
-    ros2 launch ur_simulation_gazebo ur_sim_control.launch.py ur_type:=ur5e
+    ros2 launch ur_simulation_gazebo ur_sim_control.launch.py ur_type:=ur5e launch_rviz:=false
 
 2. **MoveIt2 Motion Planning**
 Open a second terminal, connect to the running container (docker exec), and launch the MoveIt2 "brain":
