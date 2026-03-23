@@ -3,11 +3,11 @@ FROM osrf/ros:humble-desktop-full
 
 # 2. Update the system and install required robotics packages
 RUN apt-get update && apt-get install -y \
-    python3-colcon-common-extensions \
     ros-humble-ur \
     ros-humble-moveit \
-    git \
-    nano \
+    ros-humble-gazebo-ros-pkgs \
+    ros-humble-gazebo-ros2-control \
+    ros-humble-ros2controlcli \
     && rm -rf /var/lib/apt/lists/*
 
 # 3. Set up the working directory where your code will live
