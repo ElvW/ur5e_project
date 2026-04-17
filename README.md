@@ -22,7 +22,7 @@ Once inside the container, clone the simulation source code and compile the work
     ```bash
     git clone -b humble [https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation.git](https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation.git) src/ur_simulation
     colcon build --symlink-install
-    source install/setup.bash
+    source install/setup.bash # this command needs to be run each time you start the docker
 
 ## 🚀 Execution Guide
 1. **Launching Gazebo Simulation:**

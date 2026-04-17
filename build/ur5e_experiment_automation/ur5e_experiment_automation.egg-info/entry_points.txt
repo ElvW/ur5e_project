@@ -1,0 +1,3 @@
+[console_scripts]
+runner = ur5e_experiment_automation.experiment_runner:main
+
