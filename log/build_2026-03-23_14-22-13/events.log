@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000382] (-) JobUnselected: {'identifier': 'ur5e_experiment_automation'}
-[0.000425] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
-[0.000768] (-) EventReactorShutdown: {}
