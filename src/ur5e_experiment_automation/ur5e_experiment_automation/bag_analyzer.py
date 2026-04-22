@@ -18,10 +18,10 @@ except ImportError:
 class BagAnalyzer:
     def __init__(self):
         # Find the bags folder (adjust path if your bags are saved somewhere else)
-        self.workspace_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
-        self.bag_dir = os.path.join(self.workspace_dir, 'recordings')
+        self.workspace_dir = '/ros2_ws'
+        self.bag_dir = '/ros2_ws/recordings'
 
-        self.config_path = os.path.join(self.workspace_dir, 'src', 'ur5e_experiment_automation', 'config', 'experiments.yaml')
+        self.config_path = '/ros2_ws/src/ur5e_experiment_automation/config/experiments.yaml'
         
         if os.path.exists(self.config_path):
             with open(self.config_path, 'r') as file:
