@@ -1,22 +1,24 @@
 # A1 Experiment Scenarios Configuration
-scenarios:
+home_pose: [0.4, 0, 0.4, 3.14, 0.0, 0.0]
+
+scenarios:  
   # Scenario 1: Point-to-point movement
   home_to_pose:
     target_pose: [0.4, 0.2, 0.4, 3.14, 0.0, 0.0] 
     timeout: 10.0
 
   # Scenario 2: Moving through multiple points
-  waypoint:
-    waypoints:
-      - [0.4, 0.2, 0.4, 3.14, 0.0, 0.0]
-      - [0.4, -0.2, 0.4, 3.14, 0.0, 0.0]
-      - [0.5, 0.0, 0.3, 3.14, 0.0, 0.0]
-    timeout: 25.0
+  # waypoint:
+  #   waypoints:
+  #     - [0.4, 0.2, 0.4, 3.14, 0.0, 0.0]
+  #     - [0.4, -0.2, 0.4, 3.14, 0.0, 0.0]
+  #     - [0.5, 0.0, 0.3, 3.14, 0.0, 0.0]
+  #   timeout: 25.0
 
-  # Scenario 3: Simulating a pick and place (down, up, over, down)
-  pick_place:
-    pick_approach: [0.5, 0.2, 0.3, 3.14, 0.0, 0.0]
-    pick_grasp: [0.5, 0.2, 0.1, 3.14, 0.0, 0.0]
-    place_approach: [0.5, -0.2, 0.3, 3.14, 0.0, 0.0]
-    place_drop: [0.5, -0.2, 0.1, 3.14, 0.0, 0.0]
-    timeout: 30.0
+  # # Scenario 3: Simulating a pick and place (down, up, over, down)
+  # pick_place:
+  #   pick_approach: [0.5, 0.2, 0.3, 3.14, 0.0, 0.0]
+  #   pick_grasp: [0.5, 0.2, 0.1, 3.14, 0.0, 0.0]
+  #   place_approach: [0.5, -0.2, 0.3, 3.14, 0.0, 0.0]
+  #   place_drop: [0.5, -0.2, 0.1, 3.14, 0.0, 0.0]
+  #   timeout: 30.0

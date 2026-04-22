@@ -15,3 +15,4 @@ WORKDIR /ros2_ws
 
 # 4. Make sure ROS 2 is sourced automatically every time you enter the container
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+RUN echo "if [ -f /ros2_ws/install/setup.bash ]; then source /ros2_ws/install/setup.bash; fi" >> ~/.bashrc

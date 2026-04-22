@@ -10,6 +10,7 @@ setup.py
 ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/zip-safe
 resource/ur5e_experiment_automation
 ur5e_experiment_automation/__init__.py
+ur5e_experiment_automation/bag_analyzer.py
 ur5e_experiment_automation/experiment_runner.py
 ur5e_experiment_automation.egg-info/PKG-INFO
 ur5e_experiment_automation.egg-info/SOURCES.txt

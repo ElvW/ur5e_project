@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'runner = ur5e_experiment_automation.experiment_runner:main'
+            'runner = ur5e_experiment_automation.experiment_runner:main',
+            'analyzer = ur5e_experiment_automation.bag_analyzer:main'
         ],
     },
 )

@@ -1,0 +1,17 @@
+[1.598s] Invoking command in '/ros2_ws/build/ur5e_experiment_automation': PYTHONPATH=/ros2_ws/build/ur5e_experiment_automation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/ur5e_experiment_automation/build --no-deps symlink_data
+[2.145s] running develop
+[2.474s] running egg_info
+[2.474s] writing ur5e_experiment_automation.egg-info/PKG-INFO
+[2.475s] writing dependency_links to ur5e_experiment_automation.egg-info/dependency_links.txt
+[2.475s] writing entry points to ur5e_experiment_automation.egg-info/entry_points.txt
+[2.476s] writing requirements to ur5e_experiment_automation.egg-info/requires.txt
+[2.476s] writing top-level names to ur5e_experiment_automation.egg-info/top_level.txt
+[2.489s] reading manifest file 'ur5e_experiment_automation.egg-info/SOURCES.txt'
+[2.489s] writing manifest file 'ur5e_experiment_automation.egg-info/SOURCES.txt'
+[2.490s] running build_ext
+[2.490s] Creating /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e-experiment-automation.egg-link (link to .)
+[2.492s] Installing runner = ur5e_experiment_automation.experiment_runner:mainanalyzer script to /ros2_ws/install/ur5e_experiment_automation/lib/ur5e_experiment_automation
+[2.493s] 
+[2.493s] Installed /ros2_ws/build/ur5e_experiment_automation
+[2.494s] running symlink_data
+[2.597s] Invoked command in '/ros2_ws/build/ur5e_experiment_automation' returned '0': PYTHONPATH=/ros2_ws/build/ur5e_experiment_automation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/ur5e_experiment_automation/build --no-deps symlink_data
