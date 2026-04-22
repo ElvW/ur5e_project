@@ -1,0 +1,11 @@
+Repetition,Experiment,Duration (s),Path Length (m),Final X,Final Y,Final Z,Target Error (m),Success
+exp_home_to_pose_rep1,home_to_pose,4.639,0.9404,0.3994,0.1998,0.4022,0.002293,True
+exp_home_to_pose_rep2,home_to_pose,4.2994,2.1084,0.3932,0.1997,0.4003,0.006826,True
+exp_home_to_pose_rep3,home_to_pose,4.2958,1.9768,0.3983,0.1921,0.4021,0.008401,True
+exp_home_to_pose_rep4,home_to_pose,3.2776,1.3268,0.4007,0.2005,0.3995,0.001,True
+exp_home_to_pose_rep5,home_to_pose,3.4879,2.5216,0.4021,0.1985,0.4009,0.002777,True
+exp_home_to_pose_rep6,home_to_pose,3.7881,0.4338,0.4018,0.206,0.405,0.008012,True
+exp_home_to_pose_rep7,home_to_pose,3.2783,0.8194,0.4033,0.2037,0.3955,0.00668,True
+exp_home_to_pose_rep8,home_to_pose,4.2367,0.937,0.397,0.1912,0.3973,0.009679,True
+exp_home_to_pose_rep9,home_to_pose,3.7803,0.1558,0.4016,0.2075,0.4008,0.007727,True
+exp_home_to_pose_rep10,home_to_pose,3.6993,1.5152,0.4036,0.2019,0.4078,0.008773,True
