@@ -21,6 +21,8 @@ class BagAnalyzer:
         self.workspace_dir = '/ros2_ws'
         self.bag_dir = '/ros2_ws/recordings'
 
+        os.makedirs(self.bag_dir, exist_ok=True)
+
         self.config_path = '/ros2_ws/src/ur5e_experiment_automation/config/experiments.yaml'
         
         if os.path.exists(self.config_path):
