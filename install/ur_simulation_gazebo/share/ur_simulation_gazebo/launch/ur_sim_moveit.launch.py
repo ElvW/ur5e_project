@@ -1,0 +1,1 @@
+/ros2_ws/src/ur_simulation_gazebo/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py

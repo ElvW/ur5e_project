@@ -1,0 +1,41 @@
+[0.574s] Invoking command in '/ros2_ws/src/ur5e_experiment_automation': PYTHONPATH=/ros2_ws/build/ur5e_experiment_automation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur5e_experiment_automation build --build-base /ros2_ws/build/ur5e_experiment_automation/build install --record /ros2_ws/build/ur5e_experiment_automation/install.log --single-version-externally-managed install_data
+[0.769s] running egg_info
+[0.770s] creating ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info
+[0.771s] writing ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/PKG-INFO
+[0.771s] writing dependency_links to ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/dependency_links.txt
+[0.771s] writing entry points to ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/entry_points.txt
+[0.771s] writing requirements to ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/requires.txt
+[0.771s] writing top-level names to ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/top_level.txt
+[0.771s] writing manifest file '../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/SOURCES.txt'
+[0.773s] reading manifest file '../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/SOURCES.txt'
+[0.773s] writing manifest file '../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/SOURCES.txt'
+[0.774s] running build
+[0.774s] running build_py
+[0.774s] creating /ros2_ws/build/ur5e_experiment_automation/build
+[0.774s] creating /ros2_ws/build/ur5e_experiment_automation/build/lib
+[0.775s] creating /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation
+[0.775s] copying ur5e_experiment_automation/experiment_runner.py -> /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation
+[0.775s] copying ur5e_experiment_automation/bag_analyzer.py -> /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation
+[0.776s] copying ur5e_experiment_automation/__init__.py -> /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation
+[0.776s] running install
+[0.776s] running install_lib
+[0.777s] creating /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation
+[0.777s] copying /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation/experiment_runner.py -> /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation
+[0.777s] copying /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation/bag_analyzer.py -> /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation
+[0.777s] copying /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation/__init__.py -> /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation
+[0.778s] byte-compiling /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation/experiment_runner.py to experiment_runner.cpython-310.pyc
+[0.781s] byte-compiling /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation/bag_analyzer.py to bag_analyzer.cpython-310.pyc
+[0.782s] byte-compiling /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation/__init__.py to __init__.cpython-310.pyc
+[0.782s] running install_data
+[0.782s] creating /ros2_ws/install/ur5e_experiment_automation/share/ament_index
+[0.783s] creating /ros2_ws/install/ur5e_experiment_automation/share/ament_index/resource_index
+[0.783s] creating /ros2_ws/install/ur5e_experiment_automation/share/ament_index/resource_index/packages
+[0.784s] copying resource/ur5e_experiment_automation -> /ros2_ws/install/ur5e_experiment_automation/share/ament_index/resource_index/packages
+[0.784s] copying package.xml -> /ros2_ws/install/ur5e_experiment_automation/share/ur5e_experiment_automation
+[0.784s] running install_egg_info
+[0.785s] Copying ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info to /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation-0.0.0-py3.10.egg-info
+[0.787s] running install_scripts
+[0.804s] Installing analyzer script to /ros2_ws/install/ur5e_experiment_automation/lib/ur5e_experiment_automation
+[0.805s] Installing runner script to /ros2_ws/install/ur5e_experiment_automation/lib/ur5e_experiment_automation
+[0.805s] writing list of installed files to '/ros2_ws/build/ur5e_experiment_automation/install.log'
+[0.830s] Invoked command in '/ros2_ws/src/ur5e_experiment_automation' returned '0': PYTHONPATH=/ros2_ws/build/ur5e_experiment_automation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur5e_experiment_automation build --build-base /ros2_ws/build/ur5e_experiment_automation/build install --record /ros2_ws/build/ur5e_experiment_automation/install.log --single-version-externally-managed install_data

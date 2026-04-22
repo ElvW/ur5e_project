@@ -1,0 +1,20 @@
+[0.593s] Invoking command in '/ros2_ws/build/ur5e_experiment_automation': PYTHONPATH=/ros2_ws/build/ur5e_experiment_automation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/ur5e_experiment_automation/build --no-deps symlink_data --force
+[0.827s] running develop
+[0.962s] running egg_info
+[0.963s] writing ur5e_experiment_automation.egg-info/PKG-INFO
+[0.963s] writing dependency_links to ur5e_experiment_automation.egg-info/dependency_links.txt
+[0.963s] writing entry points to ur5e_experiment_automation.egg-info/entry_points.txt
+[0.963s] writing requirements to ur5e_experiment_automation.egg-info/requires.txt
+[0.964s] writing top-level names to ur5e_experiment_automation.egg-info/top_level.txt
+[0.965s] reading manifest file 'ur5e_experiment_automation.egg-info/SOURCES.txt'
+[0.966s] writing manifest file 'ur5e_experiment_automation.egg-info/SOURCES.txt'
+[0.967s] running build_ext
+[0.968s] Creating /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e-experiment-automation.egg-link (link to .)
+[0.968s] Installing analyzer script to /ros2_ws/install/ur5e_experiment_automation/lib/ur5e_experiment_automation
+[0.968s] Installing runner script to /ros2_ws/install/ur5e_experiment_automation/lib/ur5e_experiment_automation
+[0.969s] 
+[0.969s] Installed /ros2_ws/build/ur5e_experiment_automation
+[0.969s] running symlink_data
+[0.969s] symbolically linking /ros2_ws/build/ur5e_experiment_automation/resource/ur5e_experiment_automation -> /ros2_ws/install/ur5e_experiment_automation/share/ament_index/resource_index/packages
+[0.970s] symbolically linking /ros2_ws/build/ur5e_experiment_automation/package.xml -> /ros2_ws/install/ur5e_experiment_automation/share/ur5e_experiment_automation
+[1.010s] Invoked command in '/ros2_ws/build/ur5e_experiment_automation' returned '0': PYTHONPATH=/ros2_ws/build/ur5e_experiment_automation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/ur5e_experiment_automation/build --no-deps symlink_data --force

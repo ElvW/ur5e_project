@@ -1,0 +1,4 @@
+[console_scripts]
+analyzer = ur5e_experiment_automation.bag_analyzer:main
+runner = ur5e_experiment_automation.experiment_runner:main
+

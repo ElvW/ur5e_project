@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info
+writing ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/dependency_links.txt
+writing entry points to ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/entry_points.txt
+writing requirements to ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/requires.txt
+writing top-level names to ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/top_level.txt
+writing manifest file '../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/SOURCES.txt'
+reading manifest file '../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/SOURCES.txt'
+writing manifest file '../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros2_ws/build/ur5e_experiment_automation/build
+creating /ros2_ws/build/ur5e_experiment_automation/build/lib
+creating /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation
+copying ur5e_experiment_automation/experiment_runner.py -> /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation
+copying ur5e_experiment_automation/bag_analyzer.py -> /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation
+copying ur5e_experiment_automation/__init__.py -> /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation
+running install
+running install_lib
+creating /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation
+copying /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation/experiment_runner.py -> /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation
+copying /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation/bag_analyzer.py -> /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation
+copying /ros2_ws/build/ur5e_experiment_automation/build/lib/ur5e_experiment_automation/__init__.py -> /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation
+byte-compiling /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation/experiment_runner.py to experiment_runner.cpython-310.pyc
+byte-compiling /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation/bag_analyzer.py to bag_analyzer.cpython-310.pyc
+byte-compiling /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /ros2_ws/install/ur5e_experiment_automation/share/ament_index
+creating /ros2_ws/install/ur5e_experiment_automation/share/ament_index/resource_index
+creating /ros2_ws/install/ur5e_experiment_automation/share/ament_index/resource_index/packages
+copying resource/ur5e_experiment_automation -> /ros2_ws/install/ur5e_experiment_automation/share/ament_index/resource_index/packages
+copying package.xml -> /ros2_ws/install/ur5e_experiment_automation/share/ur5e_experiment_automation
+running install_egg_info
+Copying ../../build/ur5e_experiment_automation/ur5e_experiment_automation.egg-info to /ros2_ws/install/ur5e_experiment_automation/lib/python3.10/site-packages/ur5e_experiment_automation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing analyzer script to /ros2_ws/install/ur5e_experiment_automation/lib/ur5e_experiment_automation
+Installing runner script to /ros2_ws/install/ur5e_experiment_automation/lib/ur5e_experiment_automation
+writing list of installed files to '/ros2_ws/build/ur5e_experiment_automation/install.log'
