@@ -1,17 +1,22 @@
 #!/bin/bash
 
-# 1. Build the image from your Dockerfile
-# It tags (-t) the image as 'ur5e_custom_image'
+# 1. Stop and remove any existing container with the same name
+# This prevents the "Name already in use" error
+echo "Cleaning up old containers..."
+docker rm -f my_ur5e_container 2>/dev/null || true
+
+# 2. Build the image
 echo "Building Docker Image..."
 docker build -t ur5e_custom_image .
 
-# 2. Grant Docker permission to use your Windows/WSL Display
-xhost +local:docker
+# 3. Grant Display permissions
+xhost +local:docker > /dev/null
 
-# 3. Launch the container
+# 4. Launch the container
 echo "Starting the Robot Environment..."
 docker run -it \
     --name my_ur5e_container \
+    --rm \
     --net=host \
     --env="DISPLAY" \
     --env="QT_X11_NO_MITSHM=1" \
