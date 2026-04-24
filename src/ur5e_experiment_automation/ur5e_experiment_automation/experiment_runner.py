@@ -36,13 +36,19 @@ class ExperimentRunner(Node):
         os.makedirs(self.bag_dir, exist_ok=True)
         
         # 2. Setup MoveIt Action Client
-        # This creates a direct pipeline to the MoveIt brain
-        self.move_action_client = ActionClient(self, MoveGroup, 'recognize_poses') 
-        # Note: Depending on your specific UR simulation setup, the action server name might be 'move_action'
         self.move_action_client = ActionClient(self, MoveGroup, 'move_action')
         
         self.scenarios = self.load_config()
-        self.total_repetitions = 10
+        while True:
+            try:
+                user_input = input("Please enter the amount of repetitions wanted: ")
+                self.total_repetitions = int(user_input)
+                if self.total_repetitions > 0:
+                    break
+                else:
+                    print("Please enter a positive number.")
+            except ValueError:
+                print("Invalid input! Please enter a whole number (e.g., 10).")
         self.bag_process = None
         
         # Wait for MoveIt to wake up before starting
@@ -162,10 +168,6 @@ class ExperimentRunner(Node):
         target.position = Point(x=float(x), y=float(y), z=float(z))
         target.orientation = self.euler_to_quaternion(roll, pitch, yaw)
 
-        pose_stamped = PoseStamped()
-        pose_stamped.header.frame_id = "base_link"
-        pose_stamped.pose = target
-
         # Set up position constraint
         pos_constraint = PositionConstraint()
         pos_constraint.header.frame_id = "base_link"
@@ -233,8 +235,8 @@ class ExperimentRunner(Node):
             jc = JointConstraint()
             jc.joint_name = joint_names[i]
             jc.position = home_joints[i]
-            jc.tolerance_above = 0.01
-            jc.tolerance_below = 0.01
+            jc.tolerance_above = 0.05
+            jc.tolerance_below = 0.05
             jc.weight = 1.0
             constraint.joint_constraints.append(jc)
             
@@ -288,6 +290,8 @@ class ExperimentRunner(Node):
         self.get_logger().info("Virtual floor active! The elbow is now safe.")
 
     def run_experiments(self):
+
+        self.reset_joints()
 
         for rep in range(1, self.total_repetitions + 1):
             self.get_logger().info(f"========== REPETITION {rep}/{self.total_repetitions} ==========")
