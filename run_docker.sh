@@ -16,7 +16,6 @@ xhost +local:docker > /dev/null
 echo "Starting the Robot Environment..."
 docker run -it \
     --name my_ur5e_container \
-    --rm \
     --net=host \
     --env="DISPLAY" \
     --env="QT_X11_NO_MITSHM=1" \
