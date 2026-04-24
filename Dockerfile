@@ -3,6 +3,8 @@ FROM osrf/ros:humble-desktop-full
 
 # 2. Update the system and install required robotics packages
 RUN apt-get update && apt-get install -y \
+    python3-matplotlib \
+    python3-pip \
     ros-humble-ur \
     ros-humble-moveit \
     ros-humble-gazebo-ros-pkgs \
