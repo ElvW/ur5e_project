@@ -1,6 +1,5 @@
 build/
 install/
 log/
-results/
-recordings/
+safety_events_log.csv/
 **/__pycache__/
